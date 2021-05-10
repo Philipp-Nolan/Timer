@@ -1,0 +1,32 @@
+html {
+  background-color: whitesmoke;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  color: white;
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background: linear-gradient(#e66465, #9198e5);
+  box-shadow: -8px 8px 0px -0px rgba(0, 0, 0, 0.42);
+}
+
+button {
+  margin: 15px;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 70px;
+  height: 30px;
+}
